@@ -51,28 +51,32 @@ img {
 
 .sconto {
     background-color: red;
-    width: min-content;
     position: absolute;
     left: 0;
     bottom: 7rem;
+    padding: 0.3rem 0.5rem;
+    color: white;
+
 }
 
 .green-block {
     background-color: green;
-    width: min-content;
     position: absolute;
-    left: 3rem;
+    left: 3.5rem;
     bottom: 7rem;
+    padding: 0.3rem 0.5rem;
+    color: white;
 
 
 }
 
 .like {
-    background-color: blue;
-    width: min-content;
+    font-size: 3em;
+    padding: 1rem;
     position: absolute;
     right: 0;
     top: 4rem;
+    color: grey;  
 
 }
 
@@ -86,3 +90,10 @@ img {
 .img-top:hover {
     opacity: 1;
 }
+
+.like:hover {
+    color: red;
+}
+
+
+
