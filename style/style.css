@@ -54,10 +54,7 @@ img {
     width: min-content;
     position: absolute;
     left: 0;
-    bottom: 3rem;
-
-
-
+    bottom: 7rem;
 }
 
 .green-block {
@@ -65,7 +62,7 @@ img {
     width: min-content;
     position: absolute;
     left: 3rem;
-    bottom: 3rem;
+    bottom: 7rem;
 
 
 }
@@ -77,4 +74,15 @@ img {
     right: 0;
     top: 4rem;
 
+}
+
+.img-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.img-top:hover {
+    opacity: 1;
 }
