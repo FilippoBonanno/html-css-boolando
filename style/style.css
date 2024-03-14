@@ -14,16 +14,15 @@
 /* HEADER */
 header {
     background-color: orange;
-    text-align: center;
 }
 
 .header-section {
-    justify-content: space-around;
-}
+    justify-content: space-between;
+} 
 
 .header-section > div {
     width: calc(70% / 3);
-    padding: 1rem;
+    padding: 1rem 0rem;
 }
 
 .choise div {
@@ -36,10 +35,17 @@ header {
     margin: 0 auto; 
 }
 
+.social {
+    text-align: end;
+    margin-right: 2rem;
+}
 /* FINE HEADER */
 
-.main-section-primary, .main-section-secondary {
+.boxed {
     width: 1200px;
+}
+
+.main-section-primary, .main-section-secondary {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -91,10 +97,13 @@ img {
     left: 0;
     top: 0;
     opacity: 0;
+    transition: 300ms;
+
 }
 
 .img-top:hover {
     opacity: 1;
+    transition: 300ms;
 }
 
 .like:hover {
@@ -120,7 +129,6 @@ img {
 
 .section-footer {
     justify-content: space-between;
-    width: 1200px;
     
 }
 
