@@ -14,19 +14,24 @@
 /* HEADER */
 header {
     background-color: orange;
+    box-shadow: 0 1px 3px #666;
 }
 
 .header-section {
     justify-content: space-between;
 } 
 
+.choise {
+    justify-content: space-between;
+    margin-left: 2rem
+}
+
 .header-section > div {
-    width: calc(70% / 3);
+    width: calc(50% / 3);
     padding: 1rem 0rem;
 }
 
 .choise div {
-    padding: 0.5rem;
     color: white;
 }
 
@@ -38,6 +43,7 @@ header {
 .social {
     text-align: end;
     margin-right: 2rem;
+    color: white;
 }
 /* FINE HEADER */
 
